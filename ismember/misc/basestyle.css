@@ -1,0 +1,92 @@
+body{
+	background-color:#FFA500;
+	font-family:Arial;
+	background-size:100%;
+	background-attachment:fixed;
+}
+
+#content {
+	text-align:center;
+	width: 800px;
+	background-color: #FFFFFF;
+	margin-left:auto;
+	margin-right:auto;
+	border:10px solid #FFA500;
+	border-radius: 20px;
+	box-shadow:2px 2px 10px 0 #7D7272;
+	padding:8px;
+	width:426px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#content img {
+	width: 128px;
+	height: 128px;
+}
+
+#content p {
+
+}
+
+#content form label{
+	padding:3px;
+	margin-right:5px;
+	width:120px;
+	text-align:right;
+	text-shadow: 1px 1px 3px #CCCCCC;
+}
+
+h1{
+	font-size:18px;
+	font-weight:bold;
+	color:#505050;
+	text-transform: uppercase;
+	margin:5px 0 5px;
+	text-shadow: 1px 1px 3px #999999;
+}
+
+
+.logout{
+	color: #000000;
+	text-decoration: none;
+	text-align:right;
+}
+
+#content button{
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:"Bitstream Vera Sans", Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:4px 15px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+	margin-top:8px;
+}
+
+#content button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+	cursor:pointer;
+}
+
+#content button:active {
+	position:relative;
+	top:1px;
+	left:1px;
+	cursor:pointer;
+}

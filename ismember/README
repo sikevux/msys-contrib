@@ -1,0 +1,15 @@
+ismember - check if a swedish personal number is a paying member
+
+You need a webserver and a database server.
+
+Copy example-config.php to local-config.php and edit the values inside.
+
+The tablename must match the database table for the administrators,
+default is adminusers.
+
+Create the database table, see default configuration in db/structure.sql.
+
+Add administrators.
+  INSERT INTO adminusers (username, password) VALUES ('admin', sha1('nimda'));
+
+Config your webserver to serve ismember.php as default page at some URL.
