@@ -1,0 +1,6 @@
+msys external components contributions
+
+The msys project is self contained and designed to do one thing and do
+it well.
+By providing an API for msys it's easy to interact with it and create
+external components. This repository holds such contributions.
